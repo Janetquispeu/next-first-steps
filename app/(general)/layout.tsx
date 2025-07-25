@@ -8,8 +8,10 @@ export default function AboutLayout({
   return (
     <div>
       <Navbar />
-      Hola Mundo
-      {children}
+      <div className="flex flex-col items-center p-24">
+        <span>Hola Mundo</span>
+        {children}
+      </div>
     </div>
   );
 }
